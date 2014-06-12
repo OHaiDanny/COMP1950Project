@@ -5,8 +5,8 @@
 
 
 *### June 12 Check-in
-..* Added initial files
-..* Added CSS to mobile version
+  - Added initial files
+  - Added CSS to mobile version
 
 OVERVIEW
 --------
