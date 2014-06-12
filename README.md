@@ -5,8 +5,9 @@
 
 
 * June 12 Check-in
-  - Added initial files
-  - Added CSS to mobile version
+  - Added Client Site
+    - Added CSS to mobile version
+    - Added CSS for Tablet and Desktop version
 
 OVERVIEW
 --------
