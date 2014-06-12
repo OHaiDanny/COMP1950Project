@@ -55,12 +55,13 @@ a {
 .clear {
     clear: both;
 }
+/* PHONE STYLING */
 @media screen and (max-width: 480px) {
     /*
     ** HEADER STYLING
     */
     header {
-        background: #374E5A;
+        background: url(/img/darkBG.jpg);
         color: #FFFFF1;
         text-align: center;
         padding: 0.2em;
@@ -73,7 +74,7 @@ a {
     header section span {
         color: #D5FF9B;
     }
-    nav ul li {
+    nav li {
         display: block;
         background: #5A7B6C;
         border-top: 1px solid #374E5A;
@@ -81,7 +82,7 @@ a {
         text-transform: uppercase;
         font-family: gotham_thin;
     }
-    nav ul li a {
+    nav a {
         display: block;
         padding: 0.5em 0;
     }
@@ -126,6 +127,202 @@ a {
         border-top: 1px dashed white;
         border-bottom: 1px dashed white;
         margin: 0.2em 0;
+    }
+    /*
+    ** FOOTER STYLING 
+    */
+    footer {
+        background: #374E5A;
+        color: #FFFFF1;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+
+/* TABLET STYLING */
+@media screen and (min-width: 481px) and (max-width:768px) {
+    /*
+    ** HEADER STYLING
+    */
+    header {
+        background: url(/img/darkBG.jpg);
+        color: #FFFFF1;
+        text-align: center;
+        border-bottom: 3px solid #5A7B6C;
+    }
+    header section {
+        font-size: 1.5em;
+        padding: 0.7em;
+        font-family: gotham_book;
+    }
+    header section span {
+        color: #D5FF9B;
+    }
+    nav {
+    }
+    nav ul {
+        text-align:center;
+    }
+    nav li {
+        background:#5A7B6C;
+        color:#FFFFF1;
+        display: inline-block;
+        padding:0 0.3%;
+        text-transform: uppercase;
+        font-family: gotham_thin;
+    }
+    nav a {
+        display: block;
+        padding: 0.5em 0;
+    }
+    /*
+    ** MIDDLE STYLING
+    */
+    #middle {
+        background: url(/img/whiteBG.png);
+        color: #8FB87F;
+    }
+    #middle h2 {
+        text-align: center;
+        padding: 1em;
+        font-size: 1.7em;
+        font-family: gotham_med;
+    }
+    #middle p {
+        line-height: 1.4em;
+        padding: 0 1em 1em;
+    }
+    #middle ul {
+        text-align: center;
+        color: #374E5A;
+    }
+    #middle li h3 {
+        font-size: 1.4em;
+    }
+    #middle li p {
+        padding-top: 1em;
+    }
+    /* WIREFRAME PAGE (wireframe.html) */
+    .crop-container {
+        width: 100%;
+    }
+    .crop-container img {
+        width: 100%;
+        background: grey;
+    }
+    /* REDESIGN PAGE (redesign.html) */
+    #middle article {
+        background: #5A7B6C;
+        border-top: 1px dashed white;
+        border-bottom: 1px dashed white;
+        margin: 0.2em 0;
+    }
+    /*
+    ** FOOTER STYLING 
+    */
+    footer {
+        background: #374E5A;
+        color: #FFFFF1;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+
+/* DESKTOP STYLING */
+@media screen and (min-width: 769px) {
+    /*
+    ** HEADER STYLING
+    */
+    header {
+        background: url(/img/darkBG.jpg);
+        color: #FFFFF1;
+        text-align: left;
+        border-bottom: 3px solid #5A7B6C;
+        height:50px;
+        position:relative;
+        top:-0.5em;
+    }
+    header section {
+        font-size: 1.5em;
+        padding: 0.7em;
+        font-family: gotham_book;
+        float:left;
+    }
+    header section span {
+        color: #D5FF9B;
+    }
+    nav ul {
+        display:block;
+        text-align:right;
+    }
+    nav li {
+        background:none;
+        color:#FFFFF1;
+        display: inline-block;
+        text-transform: uppercase;
+        font-family: gotham_thin;
+    }
+    nav a {
+        display: block;
+        padding: 0.5em 0.5em;
+        height:35px;
+    }
+    nav a:hover {
+        background:#5A7B6C;
+    }
+    nav span {
+        position:relative;
+        top:35%;
+    }
+    /*
+    ** MIDDLE STYLING
+    */
+    #middle {
+        background: url(/img/whiteBG.png);
+        color: #8FB87F;
+    }
+    #middle h2 {
+        text-align: center;
+        padding: 1em;
+        font-size: 1.7em;
+        font-family: gotham_med;
+    }
+    #middle p {
+        line-height: 1.4em;
+        padding: 0 1em 1em;
+    }
+    #middle ul {
+        text-align: center;
+        color: #374E5A;
+    }
+    #middle li h3 {
+        font-size: 1.4em;
+    }
+    #middle li p {
+        padding-top: 1em;
+    }
+    /* WIREFRAME PAGE (wireframe.html) */
+    .crop-container {
+        width: 100%;
+    }
+    .crop-container img {
+        margin:3%;
+        width: 94%;
+        height:500px;
+        background: grey;
+    }
+    /* REDESIGN PAGE (redesign.html) */
+    #middle article {
+        width:31.3%;
+        min-height:100%;
+        float:left;
+        background: #5A7B6C;
+        border-top: 1px dashed white;
+        border-bottom: 1px dashed white;
+        margin: 0.2em 1%;
+    }
+    #middle article span {
+        color:white;
     }
     /*
     ** FOOTER STYLING 
