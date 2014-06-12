@@ -19,7 +19,7 @@ Over the course of two weeks, we will be updating and modifying the content here
 TEAM MEMBERS
 ------------
 
-### Danny Yan
-### Rob Anderson
-### Yun Chen
-### Neil Jaggi
+#### Danny Yan
+#### Rob Anderson
+#### Yun Chen
+#### Neil Jaggi
