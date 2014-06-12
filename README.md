@@ -4,8 +4,8 @@
 ## CHANGELOG
 
 
-* June 12 Check-in
-  - Added Client Site
+* **June 12 Check-in**
+  - *Added Client Site*
     - Added CSS to mobile version
     - Added CSS for Tablet and Desktop version
 
