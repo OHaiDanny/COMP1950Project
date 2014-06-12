@@ -4,7 +4,7 @@
 ## CHANGELOG
 
 
-# ### June 12 Check-in
+* ### June 12 Check-in
   - Added initial files
   - Added CSS to mobile version
 
