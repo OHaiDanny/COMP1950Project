@@ -1,0 +1,139 @@
+/*
+CLIENT HOME PAGE CSS STYLING
+*/
+
+/* FONT FACES :D */
+
+@font-face {
+    font-family: gotham_light;
+    src: url(/font/Gotham-Light.ttf);
+}
+@font-face {
+    font-family: gotham_thin;
+    src: url(/font/Gotham-Thin.ttf);
+}
+@font-face {
+    font-family: gotham_book;
+    src: url(/font/Gotham-Book.ttf);
+}
+@font-face {
+    font-family: gotham_med;
+    src: url(/font/Gotham-Medium.ttf);
+}
+/* COLOUR PALETTE */
+
+/*
+    #374E5A
+    #5A7B6C
+    #8FB87F
+    #D5FF9B
+    #FFFFF1 
+*/
+
+html {
+    overflow: scroll;
+}
+body {
+    font-size: 16px;
+    font-family: gotham_book, Arial, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+}
+p {
+    padding-bottom: 2em;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.clear {
+    clear: both;
+}
+@media screen and (max-width: 480px) {
+    /*
+    ** HEADER STYLING
+    */
+    header {
+        background: #374E5A;
+        color: #FFFFF1;
+        text-align: center;
+        padding: 0.2em;
+    }
+    header section {
+        font-size: 1.5em;
+        padding: 0.7em;
+        font-family: gotham_book;
+    }
+    header section span {
+        color: #D5FF9B;
+    }
+    nav ul li {
+        display: block;
+        background: #5A7B6C;
+        border-top: 1px solid #374E5A;
+        border-bottom: 0.5px solid #374E5A;
+        text-transform: uppercase;
+        font-family: gotham_thin;
+    }
+    nav ul li a {
+        display: block;
+        padding: 0.5em 0;
+    }
+    /*
+    ** MIDDLE STYLING
+    */
+    #middle {
+        background: #8FB87F;
+        color: #eee;
+    }
+    #middle h2 {
+        text-align: center;
+        padding: 1em;
+        font-size: 1.7em;
+        font-family: gotham_med;
+    }
+    #middle p {
+        line-height: 1.4em;
+        padding: 0 1em 1em;
+    }
+    #middle ul {
+        text-align: center;
+        color: #374E5A;
+    }
+    #middle li h3 {
+        font-size: 1.4em;
+    }
+    #middle li p {
+        padding-top: 1em;
+    }
+    /* WIREFRAME PAGE (wireframe.html) */
+    .crop-container {
+        width: 100%;
+    }
+    .crop-container img {
+        width: 100%;
+        background: grey;
+    }
+    /* REDESIGN PAGE (redesign.html) */
+    #middle article {
+        background: #5A7B6C;
+        border-top: 1px dashed white;
+        border-bottom: 1px dashed white;
+        margin: 0.2em 0;
+    }
+    /*
+    ** FOOTER STYLING 
+    */
+    footer {
+        background: #374E5A;
+        color: #FFFFF1;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
