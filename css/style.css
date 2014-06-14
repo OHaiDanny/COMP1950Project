@@ -56,6 +56,7 @@ a {
     clear: both;
 }
 /* PHONE STYLING */
+
 @media screen and (max-width: 480px) {
     /*
     ** HEADER STYLING
@@ -128,6 +129,33 @@ a {
         border-bottom: 1px dashed white;
         margin: 0.2em 0;
     }
+    /* RATIONALE PAGE (rationale.html) */
+    #methodology h3 {
+        padding: 0.6em 0;
+        font-size: 1.6em;
+        text-align: center;
+    }
+    #methodology h4 {
+        text-align: center;
+        padding: 0.4em 0;
+        font-family:gotham_med;
+        background:white;
+        color:#5A7B6C;
+    }
+    #methodology ul {
+        list-style-type: square;
+        margin-left: 1.5em;
+        padding: 0.5em 0;
+    }
+    #methodology li ul {
+        list-style-type: disc;
+    }
+    #methodology ul li {
+        text-align: left;
+        color: white;
+        padding: 0.5em 0;
+        font-size: 1em;
+    }
     /*
     ** FOOTER STYLING 
     */
@@ -138,9 +166,9 @@ a {
         text-align: center;
     }
 }
-
 /* TABLET STYLING */
-@media screen and (min-width: 481px) and (max-width:919px) {
+
+@media screen and (min-width: 481px) and (max-width: 919px) {
     /*
     ** HEADER STYLING
     */
@@ -158,16 +186,14 @@ a {
     header section span {
         color: #D5FF9B;
     }
-    nav {
-    }
-    nav ul {
-        text-align:center;
+    nav {} nav ul {
+        text-align: center;
     }
     nav li {
-        background:#5A7B6C;
-        color:#FFFFF1;
+        background: #5A7B6C;
+        color: #FFFFF1;
         display: inline-block;
-        padding:0 0.3%;
+        padding: 0 0.3%;
         text-transform: uppercase;
         font-family: gotham_thin;
     }
@@ -217,6 +243,31 @@ a {
         border-bottom: 1px dashed white;
         margin: 0.2em 0;
     }
+    /* RATIONALE PAGE (rationale.html) */
+    #methodology h3 {
+        padding: 0.6em 0;
+        font-size: 1.6em;
+        text-align: center;
+    }
+    #methodology h4 {
+        text-align: center;
+        padding: 0.4em 0;
+        font-family:gotham_med;
+        background:#5A7B6C;
+    }
+    #methodology ul {
+        list-style-type: square;
+        margin-left: 1.5em;
+        padding: 0.5em 0;
+    }
+    #methodology li ul {
+        list-style-type: disc;
+    }
+    #methodology ul li {
+        text-align: left;
+        padding: 0.5em 0;
+        font-size: 1em;
+    }
     /*
     ** FOOTER STYLING 
     */
@@ -227,8 +278,8 @@ a {
         text-align: center;
     }
 }
-
 /* DESKTOP STYLING */
+
 @media screen and (min-width: 920px) {
     /*
     ** HEADER STYLING
@@ -238,26 +289,26 @@ a {
         color: #FFFFF1;
         text-align: left;
         border-bottom: 3px solid #5A7B6C;
-        height:50px;
-        position:relative;
-        top:-0.5em;
+        height: 50px;
+        position: relative;
+        top: -0.5em;
     }
     header section {
         font-size: 1.5em;
         padding: 0.7em;
         font-family: gotham_book;
-        float:left;
+        float: left;
     }
     header section span {
         color: #D5FF9B;
     }
     nav ul {
-        display:block;
-        text-align:right;
+        display: block;
+        text-align: right;
     }
     nav li {
-        background:none;
-        color:#FFFFF1;
+        background: none;
+        color: #FFFFF1;
         display: inline-block;
         text-transform: uppercase;
         font-family: gotham_thin;
@@ -265,14 +316,14 @@ a {
     nav a {
         display: block;
         padding: 0.5em 0.5em;
-        height:35px;
+        height: 35px;
     }
     nav a:hover {
-        background:#5A7B6C;
+        background: #5A7B6C;
     }
     nav span {
-        position:relative;
-        top:35%;
+        position: relative;
+        top: 35%;
     }
     /*
     ** MIDDLE STYLING
@@ -306,23 +357,48 @@ a {
         width: 100%;
     }
     .crop-container img {
-        margin:3%;
+        margin: 3%;
         width: 94%;
-        height:500px;
+        height: 500px;
         background: grey;
     }
     /* REDESIGN PAGE (redesign.html) */
     #middle article {
-        width:31.3%;
-        min-height:100%;
-        float:left;
+        width: 31.3%;
+        min-height: 100%;
+        float: left;
         background: #5A7B6C;
         border-top: 1px dashed white;
         border-bottom: 1px dashed white;
         margin: 0.2em 1%;
     }
     #middle article span {
-        color:white;
+        color: white;
+    }
+    /* RATIONALE PAGE (rationale.html) */
+    #methodology h3 {
+        padding: 0.6em 0;
+        font-size: 1.6em;
+        text-align: center;
+    }
+    #methodology h4 {
+        text-align: center;
+        padding: 0.4em 0;
+        font-family:gotham_med;
+        background:#5A7B6C;
+    }
+    #methodology ul {
+        list-style-type: square;
+        margin-left: 1.5em;
+        padding: 0.5em 0;
+    }
+    #methodology li ul {
+        list-style-type: disc;
+    }
+    #methodology ul li {
+        text-align: left;
+        padding: 0.5em 0;
+        font-size: 1em;
     }
     /*
     ** FOOTER STYLING 
@@ -334,20 +410,20 @@ a {
         text-align: center;
     }
 }
-
 /* DESKTOP STYLING */
+
 @media screen and (min-width: 1280px) {
     body {
         background: url(/img/whiteBG.png);
     }
     header section {
-        margin-left:9%;
+        margin-left: 9%;
     }
     nav ul {
-        margin-right:10%;
+        margin-right: 10%;
     }
     #middle {
-        width:80%;
-        margin:0 auto;
+        width: 80%;
+        margin: 0 auto;
     }
 }
