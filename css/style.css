@@ -140,7 +140,7 @@ a {
 }
 
 /* TABLET STYLING */
-@media screen and (min-width: 481px) and (max-width:768px) {
+@media screen and (min-width: 481px) and (max-width:919px) {
     /*
     ** HEADER STYLING
     */
@@ -229,7 +229,7 @@ a {
 }
 
 /* DESKTOP STYLING */
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 920px) {
     /*
     ** HEADER STYLING
     */
@@ -332,5 +332,22 @@ a {
         color: #FFFFF1;
         text-transform: uppercase;
         text-align: center;
+    }
+}
+
+/* DESKTOP STYLING */
+@media screen and (min-width: 1280px) {
+    body {
+        background: url(/img/whiteBG.png);
+    }
+    header section {
+        margin-left:9%;
+    }
+    nav ul {
+        margin-right:10%;
+    }
+    #middle {
+        width:80%;
+        margin:0 auto;
     }
 }
