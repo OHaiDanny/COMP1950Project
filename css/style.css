@@ -55,6 +55,24 @@ a {
 .clear {
     clear: both;
 }
+
+
+/*  div and class styles */
+
+        #notes {
+            height: 100%;
+            float: left;
+            width: 55%;
+        }
+        
+        .resources {
+            height: 100%; 
+            float: right;
+            width: 42%;
+        }
+        
+
+
 /* PHONE STYLING */
 
 @media screen and (max-width: 480px) {
