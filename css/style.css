@@ -174,38 +174,17 @@ a {
         background-size: 100%;
     }
     /* REDESIGN PAGE (redesign.html) */
-    #middle article.reDesignContainer {
+    #middle #reDesignContainer ul {
+        width:80%;
+        margin:0.5em auto; 
+        list-style-type:square;
+        text-align:left;
+    }
+    #middle article.reDesignImg {
         background: #5A7B6C;
         border-top: 1px dashed white;
         border-bottom: 1px dashed white;
         margin: 0.2em 0;
-    }
-    /* RATIONALE PAGE (rationale.html) */
-    #methodology h3 {
-        padding: 0.6em 0;
-        font-size: 1.6em;
-        text-align: center;
-    }
-    #methodology h4 {
-        text-align: center;
-        padding: 0.4em 0;
-        font-family: gotham_med;
-        background: white;
-        color: #5A7B6C;
-    }
-    #methodology ul {
-        list-style-type: square;
-        margin-left: 1.5em;
-        padding: 0.5em 0;
-    }
-    #methodology li ul {
-        list-style-type: disc;
-    }
-    #methodology ul li {
-        text-align: left;
-        color: white;
-        padding: 0.5em 0;
-        font-size: 1em;
     }
     /*
     ** FOOTER STYLING 
@@ -327,42 +306,23 @@ a {
         background-size: 100%;
     }
     /* REDESIGN PAGE (redesign.html) */
-    #middle article.reDesignContainer {
+    #middle #reDesignContainer ul {
+        width:60%;
+        margin:0.5em auto; 
+        list-style-type:square;
+        text-align:left;
+    }
+    #middle article.reDesignImg {
         background: #5A7B6C;
         border-top: 1px dashed white;
         border-bottom: 1px dashed white;
         margin: 0.2em 0;
     }
-    #middle article.reDesignContainer h2 {
+    #middle article.reDesignImg h2 {
         color:#D5FF9B;
     }
-    #middle article.reDesignContainer span {
+    #middle article.reDesignImg span {
         color: white;
-    }
-    /* RATIONALE PAGE (rationale.html) */
-    #methodology h3 {
-        padding: 0.6em 0;
-        font-size: 1.6em;
-        text-align: center;
-    }
-    #methodology h4 {
-        text-align: center;
-        padding: 0.4em 0;
-        font-family: gotham_med;
-        background: #5A7B6C;
-    }
-    #methodology ul {
-        list-style-type: square;
-        margin-left: 1.5em;
-        padding: 0.5em 0;
-    }
-    #methodology li ul {
-        list-style-type: disc;
-    }
-    #methodology ul li {
-        text-align: left;
-        padding: 0.5em 0;
-        font-size: 1em;
     }
     /*
     ** FOOTER STYLING 
@@ -496,7 +456,14 @@ a {
         background-size: 100%;
     }
     /* REDESIGN PAGE (redesign.html) */
-    #middle article.reDesignContainer {
+    
+    #middle #reDesignContainer ul {
+        width:60%;
+        margin:0.5em auto;  
+        list-style-type:square;
+        text-align:left;
+    }
+    #middle article.reDesignImg {
         width: 31.3%;
         min-height: 100%;
         float: left;
@@ -505,36 +472,11 @@ a {
         border-bottom: 1px dashed white;
         margin: 0.2em 1%;
     }
-    #middle article.reDesignContainer h2 {
+    #middle article.reDesignImg h2 {
         color:#D5FF9B;
     }
-    #middle article.reDesignContainer span {
+    #middle article.reDesignImg span {
         color: white;
-    }
-    /* RATIONALE PAGE (rationale.html) */
-    #methodology h3 {
-        padding: 0.6em 0;
-        font-size: 1.6em;
-        text-align: center;
-    }
-    #methodology h4 {
-        text-align: center;
-        padding: 0.4em 0;
-        font-family: gotham_med;
-        background: #5A7B6C;
-    }
-    #methodology ul {
-        list-style-type: square;
-        margin-left: 1.5em;
-        padding: 0.5em 0;
-    }
-    #methodology li ul {
-        list-style-type: disc;
-    }
-    #methodology ul li {
-        text-align: left;
-        padding: 0.5em 0;
-        font-size: 1em;
     }
     /*
     ** FOOTER STYLING 
