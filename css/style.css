@@ -6,19 +6,19 @@ CLIENT HOME PAGE CSS STYLING
 
 @font-face {
     font-family: gotham_light;
-    src: url(/font/Gotham-Light.ttf);
+    src: url(../font/Gotham-Light.ttf);
 }
 @font-face {
     font-family: gotham_thin;
-    src: url(/font/Gotham-Thin.ttf);
+    src: url(../font/Gotham-Thin.ttf);
 }
 @font-face {
     font-family: gotham_book;
-    src: url(/font/Gotham-Book.ttf);
+    src: url(../font/Gotham-Book.ttf);
 }
 @font-face {
     font-family: gotham_med;
-    src: url(/font/Gotham-Medium.ttf);
+    src: url(../font/Gotham-Medium.ttf);
 }
 /* COLOUR PALETTE */
 
@@ -55,24 +55,18 @@ a {
 .clear {
     clear: both;
 }
-
-
 /*  div and class styles */
 
-        #notes {
-            height: 100%;
-            float: left;
-            width: 55%;
-        }
-        
-        .resources {
-            height: 100%; 
-            float: right;
-            width: 42%;
-        }
-        
-
-
+#notes {
+    height: 100%;
+    float: left;
+    width: 55%;
+}
+.resources {
+    height: 100%;
+    float: right;
+    width: 42%;
+}
 /* PHONE STYLING */
 
 @media screen and (max-width: 480px) {
@@ -80,7 +74,7 @@ a {
     ** HEADER STYLING
     */
     header {
-        background: url(/img/darkBG.jpg);
+        background: url(../img/darkBG.jpg);
         color: #FFFFF1;
         text-align: center;
         padding: 0.2em;
@@ -133,15 +127,54 @@ a {
         padding-top: 1em;
     }
     /* WIREFRAME PAGE (wireframe.html) */
-    .crop-container {
+    #wireframeContainer .crop-container {
         width: 100%;
+        height: 650px;
+        margin: 1%;
+        float: left;
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
-    .crop-container img {
+    #wireframeContainer div {
         width: 100%;
-        background: grey;
+        height:200px;
+    }
+    #wireframeContainer h3 {
+        text-align:center;
+        font-size:1.4em;
+        padding:0.4em 0;
+        margin:0.4em 0;
+        background:#5A7B6C;
+        color:white;
+    }
+    #wf1 {
+        background: url(../img/wire1.jpg);
+        background-size: 100%;
+    }
+    #wf2 {
+        background: url(../img/wire2.jpg);
+        background-size: 100%;
+    }
+    #wf3 {
+        background: url(../img/wire3.png);
+        background-size: 100%;
+    }
+    #wf4 {
+        background: url(../img/wire4.jpg);
+        background-size: 100%;
+    }
+    #finalWireframeContainer .crop-container {
+        width: 100%;
+        height: 480px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    #finalWf {
+        background: url(../img/finalWire.jpg);
+        background-size: 100%;
     }
     /* REDESIGN PAGE (redesign.html) */
-    #middle article {
+    #middle article.reDesignContainer {
         background: #5A7B6C;
         border-top: 1px dashed white;
         border-bottom: 1px dashed white;
@@ -156,9 +189,9 @@ a {
     #methodology h4 {
         text-align: center;
         padding: 0.4em 0;
-        font-family:gotham_med;
-        background:white;
-        color:#5A7B6C;
+        font-family: gotham_med;
+        background: white;
+        color: #5A7B6C;
     }
     #methodology ul {
         list-style-type: square;
@@ -191,7 +224,7 @@ a {
     ** HEADER STYLING
     */
     header {
-        background: url(/img/darkBG.jpg);
+        background: url(../img/darkBG.jpg);
         color: #FFFFF1;
         text-align: center;
         border-bottom: 3px solid #5A7B6C;
@@ -223,8 +256,8 @@ a {
     ** MIDDLE STYLING
     */
     #middle {
-        background: url(/img/whiteBG.png);
-        color: #8FB87F;
+        background: url(../img/whiteBG.png);
+        color: #5A7B6C;
     }
     #middle h2 {
         text-align: center;
@@ -247,19 +280,64 @@ a {
         padding-top: 1em;
     }
     /* WIREFRAME PAGE (wireframe.html) */
-    .crop-container {
+    #wireframeContainer .crop-container {
         width: 100%;
+        height: 650px;
+        margin: 1%;
+        float: left;
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
-    .crop-container img {
+    #wireframeContainer div {
         width: 100%;
-        background: grey;
+        height:400px;
+    }
+    #wireframeContainer h3 {
+        text-align:center;
+        font-size:1.4em;
+        padding:0.4em 0;
+        margin:0.4em 0;
+        background:#5A7B6C;
+        color:white;
+    }
+    #wf1 {
+        background: url(../img/wire1.jpg);
+        background-size: 100%;
+    }
+    #wf2 {
+        background: url(../img/wire2.jpg);
+        background-size: 100%;
+    }
+    #wf3 {
+        background: url(../img/wire3.png);
+        background-size: 100%;
+    }
+    #wf4 {
+        background: url(../img/wire4.jpg);
+        background-size: 100%;
+    }
+    #finalWireframeContainer .crop-container {
+        width: 100%;
+        height: 480px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    #finalWf {
+        background: url(../img/finalWire.jpg);
+        background-size: 100%;
     }
     /* REDESIGN PAGE (redesign.html) */
-    #middle article {
+    #middle article.reDesignContainer {
         background: #5A7B6C;
         border-top: 1px dashed white;
         border-bottom: 1px dashed white;
         margin: 0.2em 0;
+    }
+    #middle article.reDesignContainer h2 {
+        color:#D5FF9B;
+    }
+    #middle article.reDesignContainer span {
+        color: white;
     }
     /* RATIONALE PAGE (rationale.html) */
     #methodology h3 {
@@ -270,8 +348,8 @@ a {
     #methodology h4 {
         text-align: center;
         padding: 0.4em 0;
-        font-family:gotham_med;
-        background:#5A7B6C;
+        font-family: gotham_med;
+        background: #5A7B6C;
     }
     #methodology ul {
         list-style-type: square;
@@ -303,7 +381,7 @@ a {
     ** HEADER STYLING
     */
     header {
-        background: url(/img/darkBG.jpg);
+        background: url(../img/darkBG.jpg);
         color: #FFFFF1;
         text-align: left;
         border-bottom: 3px solid #5A7B6C;
@@ -347,8 +425,8 @@ a {
     ** MIDDLE STYLING
     */
     #middle {
-        background: url(/img/whiteBG.png);
-        color: #8FB87F;
+        background: url(../img/whiteBG.png);
+        color: #5A7B6C;
     }
     #middle h2 {
         text-align: center;
@@ -371,17 +449,54 @@ a {
         padding-top: 1em;
     }
     /* WIREFRAME PAGE (wireframe.html) */
-    .crop-container {
-        width: 100%;
+    #wireframeContainer .crop-container {
+        width: 48%;
+        min-height:620px;
+        margin: 1%;
+        float: left;
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
-    .crop-container img {
-        margin: 3%;
-        width: 94%;
-        height: 500px;
-        background: grey;
+    #wireframeContainer div {
+        width: 100%;
+        height:400px;
+    }
+    #wireframeContainer h3 {
+        text-align:center;
+        font-size:1.4em;
+        padding:0.4em 0;
+        margin:0.4em 0;
+        background:#5A7B6C;
+        color:white;
+    }
+    #wf1 {
+        background: url(../img/wire1.jpg);
+        background-size: 100%;
+    }
+    #wf2 {
+        background: url(../img/wire2.jpg);
+        background-size: 100%;
+    }
+    #wf3 {
+        background: url(../img/wire3.png);
+        background-size: 100%;
+    }
+    #wf4 {
+        background: url(../img/wire4.jpg);
+        background-size: 100%;
+    }
+    #finalWireframeContainer .crop-container {
+        width: 100%;
+        height: 850px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    #finalWf {
+        background: url(../img/finalWire.jpg);
+        background-size: 100%;
     }
     /* REDESIGN PAGE (redesign.html) */
-    #middle article {
+    #middle article.reDesignContainer {
         width: 31.3%;
         min-height: 100%;
         float: left;
@@ -390,7 +505,10 @@ a {
         border-bottom: 1px dashed white;
         margin: 0.2em 1%;
     }
-    #middle article span {
+    #middle article.reDesignContainer h2 {
+        color:#D5FF9B;
+    }
+    #middle article.reDesignContainer span {
         color: white;
     }
     /* RATIONALE PAGE (rationale.html) */
@@ -402,8 +520,8 @@ a {
     #methodology h4 {
         text-align: center;
         padding: 0.4em 0;
-        font-family:gotham_med;
-        background:#5A7B6C;
+        font-family: gotham_med;
+        background: #5A7B6C;
     }
     #methodology ul {
         list-style-type: square;
@@ -432,7 +550,7 @@ a {
 
 @media screen and (min-width: 1280px) {
     body {
-        background: url(/img/whiteBG.png);
+        background: url(../img/whiteBG.png);
     }
     header section {
         margin-left: 9%;
