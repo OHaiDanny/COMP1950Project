@@ -104,7 +104,7 @@ header nav{
  }
  input[type="text"] {
  	width:300px;
- 	background:url(search.png)center right no-repeat;
+ 	background:url(../img/search.png)center right no-repeat;
  	background-color:#FFF;
  	-webkit-box-shadow: 0px 0px 0px 2px rgba(120,145,255,1);
 	-moz-box-shadow: 0px 0px 0px 2px rgba(120,145,255,1);
@@ -123,7 +123,7 @@ header nav{
 }
 article{
 	width:950px;
-	margin: 0 auto 15px;	
+	margin: 35px auto 15px;	
 	padding:10px 1px;
 	/*
 	rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
@@ -135,14 +135,29 @@ article{
 	*/
 	border-bottom:2px dashed black;
 }
-
+.first_article{
+    margin-top: 0;
+}
 article p{	
 	font-size: 18px;
+    margin: 10px 0;
 }
 article ul{
-	margin:0 auto;
-	width:300px;
-	margin-bottom:10px;
+    font-size: 18px;
+	margin:10px 0;
+	width:auto;
+    list-style-type: disc;
+}
+.sublist{
+    font-size: 16px;
+    margin: 10px;
+    width:auto;
+    list-style-type:disc;
+}
+article h3{
+    font-size: 20px;
+    font-weight:bold;
+    margin: 15px 0 10px 0;
 }
 #Lectures_Nav {
 	width:250px;
@@ -187,4 +202,7 @@ a {
 }
 a:hover{			
 		background-color:rgba(5,115,250,.4);
+}
+.hightlight{
+    font-weight:bold;
 }
