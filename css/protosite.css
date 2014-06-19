@@ -54,23 +54,11 @@ q:before, q:after {
 }
 /* end reset browser styles */
 h2{
-	font:38px gotham;	
+	font:38px gotham_med;	
 }
 
-#Lectures_Nav h3, #Content_Quick_Nav h3 {
-	text-align:center;			
-	background: rgba(191,220,248,1);
-	background: -moz-linear-gradient(left, rgba(191,220,248,1) 0%, rgba(132,183,241,1) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(191,220,248,1)), color-stop(100%, rgba(132,183,241,1)));
-	background: -webkit-linear-gradient(left, rgba(191,220,248,1) 0%, rgba(132,183,241,1) 100%);
-	background: -o-linear-gradient(left, rgba(191,220,248,1) 0%, rgba(132,183,241,1) 100%);
-	background: -ms-linear-gradient(left, rgba(191,220,248,1) 0%, rgba(132,183,241,1) 100%);
-	background: linear-gradient(to right, rgba(191,220,248,1) 0%, rgba(132,183,241,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfdcf8', endColorstr='#84b7f1', GradientType=1 );
-	font:25px Gotham;
-}
 header{	
-	background-color:rgba(219,219,219,.8);
+	background-color: #39596c;
 	position:fixed;
 	width:100%;	
 }
@@ -78,7 +66,8 @@ header h2{
 	width:360px;	
 	display:block;	
 	text-align:center;
-	font: 28px "Century Gothic";		
+    color: white;
+	font: 30px "gotham_thin";		
 }
 header nav{	
 	width:450px;
@@ -96,7 +85,7 @@ header nav{
  	background-color:blue;
  }
  #search_box{
- 	background-color:rgba(219,219,219,.8);	
+ 	background-color: #39596c;	
  	position:fixed;
  	width:100%;
  	top:75px;
@@ -159,6 +148,20 @@ article h3{
     font-weight:bold;
     margin: 15px 0 10px 0;
 }
+
+/* Currently Not in use
+#Lectures_Nav h3, #Content_Quick_Nav h3 {
+	text-align:center;			
+	background: rgba(191,220,248,1);
+	background: -moz-linear-gradient(left, rgba(191,220,248,1) 0%, rgba(132,183,241,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(191,220,248,1)), color-stop(100%, rgba(132,183,241,1)));
+	background: -webkit-linear-gradient(left, rgba(191,220,248,1) 0%, rgba(132,183,241,1) 100%);
+	background: -o-linear-gradient(left, rgba(191,220,248,1) 0%, rgba(132,183,241,1) 100%);
+	background: -ms-linear-gradient(left, rgba(191,220,248,1) 0%, rgba(132,183,241,1) 100%);
+	background: linear-gradient(to right, rgba(191,220,248,1) 0%, rgba(132,183,241,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfdcf8', endColorstr='#84b7f1', GradientType=1 );
+	font:25px Gotham;
+}
 #Lectures_Nav {
 	width:250px;
 	float:left;
@@ -189,6 +192,44 @@ article h3{
 	position:fixed;
 	font:15px "Century Gothic";
 }
+*/
+
+.content_nav{
+    width:250px;
+	float:left;
+	position:fixed;
+    margin-left: 15px;
+	font:15px "gotham_med";
+    background-color: #bde3f8;
+    border: 1px solid #616265;
+    -webkit-box-shadow: 0px 1px 1px 0px #bbbdbf;
+	-moz-box-shadow: 0px 1px 1px 0px #bbbdbf;
+	box-shadow: 0px 1px 1px 0px #bbbdbf;
+}
+.resource_nav{
+    width:250px;
+	margin-top:240px;		
+	position:fixed;
+    margin-left: 15px;
+	font:15px "gotham_med";
+    background-color: #bde3f8;
+    border: 1px solid #616265;
+    -webkit-box-shadow: 0px 1px 1px 0px #bbbdbf;
+	-moz-box-shadow: 0px 1px 1px 0px #bbbdbf;
+	box-shadow: 0px 1px 1px 0px #bbbdbf;
+}
+.content_nav h3, .resource_nav h3{
+    text-align:center;
+    margin: 5px 0;
+    font: 25px "gotham_book";
+}
+.content_nav li, .resource_nav li{
+    list-style:none;
+    margin-bottom:5px;
+}
+.content_nav a, .resource_nav a{
+    color: black;
+}
 footer{
 	background-color:rgba(219,219,219,.8);
 	padding:8px;
@@ -198,10 +239,10 @@ footer{
 }
 a {
 	text-decoration: none;
-	color:rgba(5,115,250,.8);		
+	color: #0080ff;		
 }
 a:hover{			
-		background-color:rgba(5,115,250,.4);
+		color: #2cb3fc;
 }
 .hightlight{
     font-weight:bold;
