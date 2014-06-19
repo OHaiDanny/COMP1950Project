@@ -60,6 +60,10 @@ h2{
 	font:38px gotham_light;	
 }
 
+.clear {
+    clear:both;
+}
+
 .hightlight{
     font-weight:bold;
 }
@@ -198,12 +202,25 @@ header nav ul ul li a:hover {
 #content{	
 	padding:130px 0 30px 0;
 }
+#homeContent {
+    padding:100px 0 30px 0;
+}
 article{
 	width: auto;
     min-width: 430px; 
 	margin: 35px 20px 15px 300px;	
 	padding:10px 1px;
 	border-bottom:2px dashed black;
+}
+#homeContent article {
+    width:100%;
+    margin:0;
+    padding:0;
+}
+#homeContent h2 {
+    text-align:center;
+    font-size:3em;
+    padding:1em 0;
 }
 .directory {
     width: auto;
@@ -224,6 +241,10 @@ article ul{
 	margin:10px 0;
 	width:auto;
     list-style-type: disc;
+}
+.list {
+    width:33.33%;
+    float:left;
 }
 .sublist{
     font-size: 16px;
@@ -287,7 +308,8 @@ article h3{
 	float:left;
 	position:fixed;
     margin-left: 15px;
-	font:15px "gotham_med";
+	font-family:gotham_med;
+    font-size:15px;
     background-color: #bde3f8;
     border: 1px solid #616265;
     -webkit-box-shadow: 0px 1px 1px 0px #bbbdbf;
@@ -299,7 +321,8 @@ article h3{
 	margin-top:240px;		
 	position:fixed;
     margin-left: 15px;
-	font:15px "gotham_med";
+	font-family:gotham_med;
+    font-size:15px;
     background-color: #bde3f8;
     border: 1px solid #616265;
     -webkit-box-shadow: 0px 1px 1px 0px #bbbdbf;
