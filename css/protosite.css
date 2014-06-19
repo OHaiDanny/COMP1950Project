@@ -68,15 +68,24 @@ header{
     border-bottom: 6px solid #bde3f8;
 }
 header h2{	
-	width:100px;
-	display:block;	
+	width:95px;
+	display:inline-block;	
 	text-align:center;
     color: white;
 	font: 30px "gotham_med";
     font-weight: bold;
     padding: 0;
-    margin: 0 20px;
+    margin-left: 20px;
     line-height: 29px;
+}
+header h3{
+    width: 140px;
+    display:inline-block;
+    text-align:center;
+    color: white;
+    font 16px "gotham_thin";
+    padding: 0;
+    margin-right: 20px;
 }
 .big{
     font-size: 38px;
@@ -85,12 +94,12 @@ header nav{
 	width:450px;
 	text-align:center;
 	float:right;	
-	margin:-63px 150px 0 0;
+	margin-right: 150px;
 }
  header nav li {
  	display:inline-block;	
  	font:1em "gotham_thin"; 	
- 	padding:25px 5px;
+ 	padding:24px 5px;
     margin: 0;
  }
 
