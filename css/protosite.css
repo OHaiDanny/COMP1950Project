@@ -28,6 +28,9 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+html {
+    overflow-y:scroll;
+}
 body {
 	line-height: 1.2;
     font-family: gotham_book, Arial, sans-serif;
@@ -54,7 +57,7 @@ q:before, q:after {
 }
 /* end reset browser styles */
 h2{
-	font:38px gotham_med;	
+	font:38px gotham_light;	
 }
 
 .hightlight{
@@ -66,8 +69,8 @@ header{
 	width:100%;
     min-width: 800px;
     height: 66px;
-    border-bottom: 6px solid #bde3f8;
-    margin 0 auto;
+    border-bottom: 4px solid #b69a73;
+    margin: 0 auto;
     padding: 0;
 }
 header h2{	
@@ -75,7 +78,8 @@ header h2{
 	display:inline-block;	
 	text-align:center;
     color: white;
-	font: 30px "gotham_med";
+	font-family:gotham_med;
+    font-size:30px;
     font-weight: bold;
     padding: 0;
     margin-left: 20px;
@@ -86,7 +90,7 @@ header h3{
     display:inline-block;
     text-align:center;
     color: white;
-    font 16px "gotham_thin";
+    font-family:gotham_thin;
     padding: 0;
     margin-right: 20px;
 }
@@ -104,7 +108,6 @@ header nav li{
 }
 header nav ul{
     float: right;
-    padding: 0 50px;
     margin-top: -61px;
     list-style: none;
     position: relative;
@@ -176,19 +179,16 @@ header nav ul ul li a:hover {
  	background-color: #7a909c;	
  	position:fixed;
  	width:100%;
- 	top:72px;
- 	padding:5px;
+ 	top:70px;
+    text-align:right;
  }
  input[type="text"] {
  	width:300px;
  	background:url(../img/search.png)center right no-repeat;
  	background-color:#FFF;
- 	-webkit-box-shadow: 0px 0px 0px 2px #bbbbbb;
-	-moz-box-shadow: 0px 0px 0px 2px #bbbbbb;
-	box-shadow: 0px 0px 0px 2px #bbbbbb;
+    border:2px solid #6c522e;
 	border-radius:5px;
-	margin-left:19px;
-	padding:2px;
+	margin-right:19px;
  }
 
  input[type="submit"]:active{
@@ -310,9 +310,11 @@ article h3{
     text-align:center;
     margin: 5px;
     padding: 2px 0;
-    font: 25px "gotham_book";
+    font-family:gotham_thin;
+    font-size:1.3em;
     color: white;
     background-color: #7a909c;
+    text-transform:uppercase;
     
 }
 .content_nav li, .resource_nav li{
