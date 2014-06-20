@@ -187,7 +187,7 @@ header nav ul ul li a:hover {
  }
  input[type="text"] {
  	width:300px;
- 	background:url(../img/search.png)center right no-repeat;
+ 	background:url(/img/search.png)center right no-repeat;
  	background-color:#FFF;
     border:2px solid #6c522e;
 	border-radius:5px;
