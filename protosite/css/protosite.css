@@ -34,6 +34,7 @@ html {
 body {
 	line-height: 1.2;
     font-family: gotham_book, Arial, sans-serif;
+    background:url(../img/lightBG.jpg);
 }
 table {
 	border-collapse: collapse;
@@ -67,7 +68,7 @@ h2{
     font-weight:bold;
 }
 header{	
-	background-color: #39596c;
+	background:url(../img/darkBG.jpg);
 	position:fixed;
 	width:100%;
     min-width: 800px;
