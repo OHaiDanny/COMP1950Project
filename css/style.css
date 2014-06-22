@@ -119,12 +119,13 @@ a {
     #middle ul {
         text-align: center;
         color: #374E5A;
+        padding:1em 0;
     }
     #middle li h3 {
         font-size: 1.4em;
     }
     #middle li p {
-        padding-top: 1em;
+        padding:0.5em 0;
     }
     /* WIREFRAME PAGE (wireframe.html) */
     #wireframeContainer .crop-container {
@@ -251,12 +252,13 @@ a {
     #middle ul {
         text-align: center;
         color: #374E5A;
+        padding:1em 0;
     }
     #middle li h3 {
         font-size: 1.4em;
     }
     #middle li p {
-        padding-top: 1em;
+        padding:0.5em 0;
     }
     /* WIREFRAME PAGE (wireframe.html) */
     #wireframeContainer .crop-container {
@@ -401,12 +403,13 @@ a {
     #middle ul {
         text-align: center;
         color: #374E5A;
+        padding:1em 0;
     }
     #middle li h3 {
         font-size: 1.4em;
     }
     #middle li p {
-        padding-top: 1em;
+        padding:0.5em 0;
     }
     /* WIREFRAME PAGE (wireframe.html) */
     #wireframeContainer .crop-container {
@@ -477,6 +480,13 @@ a {
     }
     #middle article.reDesignImg span {
         color: white;
+    }
+    .reDesignImg .crop-container {
+        width: 100%;
+        height: 310px;
+    }
+    .reDesignImg .crop-container img {
+        width: 100%;
     }
     /*
     ** FOOTER STYLING 
